@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import AppRef from "./components/useRef/AppRef";
+import CounterOne from "./components/CustomHooks/CounterOne";
+import CounterTwo from "./components/CustomHooks/CounterTwo";
 
 // export const UserContext = React.createContext();
 // export const ChannelContext = React.createContext();
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       {/* <UserContext.Provider value={"Arash"}>
         <ChannelContext.Provider value={"Zich"}> */}
-      <AppRef />
+      <CounterOne />
+      <CounterTwo />
       {/* </ChannelContext.Provider>
       </UserContext.Provider> */}
     </div>
